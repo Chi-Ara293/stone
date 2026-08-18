@@ -10,7 +10,7 @@ import Footer from './Footer.js'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/stone'>
      <div className="App">
        <Header/>
        <Nav/>
